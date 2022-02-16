@@ -1,0 +1,6 @@
+image: 
+  file: ./Dockerfile
+  context: .
+ports:
+  - port: 5900
+    onOpen: open-preview
